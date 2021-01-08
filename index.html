@@ -70,8 +70,7 @@
                                     <li>konwersacje po angielsku online</li>
                                 </ul>
 								<p><span style="font-size: 13px"><em>*nie wyręczam ucznia w odrobieniu pracy domowej, nie piszę wypracowań „na życzenie”</em></span></p>
-                                <a href="mailto:welcome.learneng@gmail.com" class="button primary">Skontaktuj się ze mną</a> 
-							</div>
+                               </div>
 						</section>
 						<section>
 							<div class="content">
@@ -85,7 +84,7 @@
                                     <li>tłumaczenie instrukcji obsługi</li>
                                     <li>korekta tekstu</li>
                                 </ul>
-                                <a href="mailto:welcome.translateng@gmail.com" class="button primary">Skontaktuj się ze mną</a> 
+                                
 							</div>
 						</section>
 						<!--<section>
@@ -124,7 +123,7 @@
 								<p>Nunc lacinia ante nunc ac lobortis ipsum. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus.</p>
 							</div>
 						</section>-->
-                      
+                        <div class="row"><div class="content col-12" style="background: none !important; box-shadow: none !important;"><a href="#kontakt" class="button primary">Skontaktuj się ze mną</a> </div></div>
 					</div>
 				</div>
                 <a name="cennik"></a>   
@@ -169,8 +168,7 @@
 											</tfoot>-->
 										</table>
 									</div>
-                            <a href="mailto:welcome.learneng@gmail.com" class="button primary">Zapytaj o cenę</a>
-                        </div>
+                         </div>
                         
                         <div class="col-6 col-12-medium">
                         <div class="table-wrapper">
@@ -201,11 +199,11 @@
 								        </tbody>
                                         </table>
 									</div>
-                        <a href="mailto:welcome.translateng@gmail.com" class="button primary">Zapytaj o cenę</a>    
                         </div>
                         
                     <a name="omnie"></a>    
                     </div>
+                    <div class="row"><div class="content col-12" style="background: none !important; box-shadow: none !important;"><a href="#kontakt" class="button primary">Skontaktuj się ze mną</a> </div></div>
 				</div>
 			</section>
 
@@ -282,13 +280,32 @@
                                 Tłumaczenia: <a href="mailto:welcome.translateng@gmail.com" target="_blank">welcome.translateng@gmail.com</a>
                                 </p>
 						</section>
+                        <section>
+                            <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSelC7G0RfwpVm0JTHH7m-ZJ0e-RCW8-WBqM6CzR-yFZ2vK94g/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">    
+                            <div class="row gtr-uniform">
+                                <div class="col-6 col-12-xsmall">
+                                    <input type="text" name="entry.39180628" id="entry.39180628" value="" placeholder="Imię" />
+                                </div>
+                                <div class="col-6 col-12-xsmall">
+                                    <input type="email" name="entry.1629290646" id="entry.1629290646" value="" placeholder="Email" />
+                                </div>    
+                                <div class="col-12">
+                                    <textarea name="entry.1749221332" id="entry.1749221332" placeholder="Wpisz wiadomość" rows="6"></textarea>
+                                    
+                                </div>
+                                <div class="col-12"><input type="submit" value="Submit">
+                                </div>
+                            </div>
+                            </form>
+                            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+                        </section>
 						<section>
 								<ul class="plain">
 								<li><a href="https://www.linkedin.com/in/magdalena-cieślikiewicz-5b3668144"><i class="icon fa-linkedin">&nbsp;</i>LinkedIn</a></li>
 								<li><a href="https://www.facebook.com/Welcome-to-LearnEng-100487758615927"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
 								<li><a href="https://www.instagram.com/welcometolearneng/"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
 								
-							</ul>
+                            </ul>
 						</section>
 					</div>
 					<div class="copyright">
@@ -303,6 +320,13 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+            <script type="text/javascript">var submitted=false;</script>
+            <script type="text/javascript">
+            $('#gform').on('submit', function(e) {
+              $('#gform *').fadeOut(2000);
+              $('#gform').prepend('Twoja wiadomość została wysłana.');
+              });
+            </script>
        <!-- <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
