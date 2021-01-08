@@ -8,6 +8,8 @@
 		<meta name="keywords" content="" />
 		<link rel="stylesheet" href="assets/css/main.css" />
         <link rel="stylesheet" href="assets/css/stylesheet.css" type="text/css" charset="utf-8"/>
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+                
 	</head>
 	<body class="is-preload">
         <!--FB plug in-->
@@ -215,7 +217,7 @@
 					       <header class="special">
                             <h2>O mnie</h2>
                             <img class="photo" src="images/mc.png" width="150" height="150">
-                            <p>Pracę w zawodzie nauczyciela zaczęłam już na drugim roku studiów – wtedy na kursach dla dzieci w wieku 9-10 lat. Po ukończeniu studiów podjęłam pracę w szkole publicznej – gimnazjum i liceum ogólnokształcącym. W ciągu 20 lat pracy pomogłam setkom maturzystów odnieść sukces na egzaminie dojrzałości, a młodszym uczniom dostać się do wymarzonych szkół średnich. Lata doświadczeń nauczyły mnie dwóch rzeczy: po pierwsze nie ma uczniów „niewyuczalnych”, po drugie partnerskie relacje i przyjazna atmosfera są w procesie nauczania tak samo ważne jak i zagadnienia, których się uczymy, ponieważ w dużej mierze przyczyniają się do sukcesu w nauce.<br><br>
+                            <p>Jestem nauczycielem języka angielskiego z 20-letnim doświadczeniem. Pracę w zawodzie zaczęłam już na drugim roku studiów – wtedy na kursach dla dzieci w wieku 9-10 lat. Po ukończeniu studiów zaczęłam uczyć w szkołach publicznych – gimnazjum i liceum ogólnokształcącym. W ciągu 20 lat pracy pomogłam setkom maturzystów odnieść sukces na egzaminie dojrzałości, a młodszym uczniom dostać się do wymarzonych szkół średnich. Lata doświadczeń nauczyły mnie dwóch rzeczy: po pierwsze nie ma uczniów „niewyuczalnych”, po drugie partnerskie relacje i przyjazna atmosfera są w procesie nauczania tak samo ważne jak i zagadnienia, których się uczymy, ponieważ w dużej mierze przyczyniają się do sukcesu w nauce.<br><br>
                             Oprócz nauczania, od 2000 roku zajmuję się również tłumaczeniami tekstów. Przez kilkanaście lat współpracowałam z pracownikami naukowymi Politechniki Częstochowskiej, dla których tłumaczyłam artykuły naukowe z dziedziny finansów, zarządzania, systemów informatycznych i sieci neuronowych. W tym samym czasie przetłumaczyłam również na język polski książkę „Invest Like a Shark” autorstwa Jamesa Deporre’a („Zostań rekinem giełdowym” wyd. Difin). Mam na koncie również tłumaczenia w branży medycznej wykonywane na zlecenie SDL Poland. <br>Pracuję w środowisku Trados.</p>
 					       </header>
                         </div>
@@ -282,7 +284,7 @@
 						</section>
 						<section>
 								<ul class="plain">
-								<li><a href="www.linkedin.com/in/magdalena-cieślikiewicz-5b3668144"><i class="icon fa-linkedin">&nbsp;</i>LinkedIn</a></li>
+								<li><a href="https://www.linkedin.com/in/magdalena-cieślikiewicz-5b3668144"><i class="icon fa-linkedin">&nbsp;</i>LinkedIn</a></li>
 								<li><a href="https://www.facebook.com/Welcome-to-LearnEng-100487758615927"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
 								<li><a href="https://www.instagram.com/welcometolearneng/"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
 								
@@ -301,6 +303,31 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+        <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
 
-	</body>
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+ 	</body>
 </html>
