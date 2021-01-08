@@ -2138,7 +2138,7 @@ ul.icons {
       background-color: #ffffff;
       color: #00867D !important; 
       }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 736px) {
         #cta .button.primary {margin-bottom: 2rem;}
       }
       #cta input[type="submit"].primary:hover,
