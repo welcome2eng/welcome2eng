@@ -1817,7 +1817,7 @@ ul.icons {
       padding: 3rem 0 1rem 0 ; } }
   @media screen and (max-width: 480px) {
     .wrapper {
-      padding: 2rem 0 0.1rem 0 ; } }
+      padding: 2rem 0 10rem 0 ; } }
 
 /* Banner */
 #banner {
