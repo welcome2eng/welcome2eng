@@ -2282,21 +2282,21 @@ ul.icons {
     #footer button.primary,
     #footer .button.primary {
       box-shadow: none;
-      background-color: #ce1b28;
+      background-color: #f0ba58;
       color: #ffffff !important; }
       #footer input[type="submit"].primary:hover,
       #footer input[type="reset"].primary:hover,
       #footer input[type="button"].primary:hover,
       #footer button.primary:hover,
       #footer .button.primary:hover {
-        background-color: #e2212f;
+        background-color: #f0ba58;
         box-shadow: none; }
         #footer input[type="submit"].primary:hover:active,
         #footer input[type="reset"].primary:hover:active,
         #footer input[type="button"].primary:hover:active,
         #footer button.primary:hover:active,
         #footer .button.primary:hover:active {
-          background-color: #b71824; }
+          background-color: #f0ba58; }
   #footer label {
     color: #ffffff; }
   #footer input[type="text"],
